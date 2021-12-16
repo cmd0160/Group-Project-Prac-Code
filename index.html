@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Skeleton Practise</title>
+</head>
+<body>
+
+<div id="weatherBox" class="container dark rounded">
+
+<!-- Search Area -->
+  <section class=" searchArea row">
+        <form class="citySearchForm">
+            <div>
+                <input class="citySearchInput eight columns " type="text" placeholder="Enter a city">
+            </div>
+
+            <div>
+                <button class="searchBtn u-pull-right four columns">Search</button>
+        </form> 
+  </section>
+
+  <!-- Clock Display  -->
+  <section class="clock">
+    <div class="twelve columns clockDisplay">
+        <p class="clock">Time:</p>
+    </div>
+  </section>
+
+  <!-- City Name Display  -->
+  <section>
+    <div class="cityDisplay">
+    <p class="twelve columns cityName"></p>
+    </div>
+  </section>
+
+  <!-- Current Icon Display  -->
+
+  <section>
+    <div class="iconDisplay">
+        <p class="twelve columns icon">Icon</p>
+    </div>
+  </section>
+
+  <!-- Current Weather/Temp Display -->
+
+  <section class="weatherDisplay">
+    <div>
+        <p class="six columns weather">weather</p>
+    </div>
+
+    <div class="tempDisplay">
+        <p class="six columns icon">Temp</p>
+    </div>
+  </section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

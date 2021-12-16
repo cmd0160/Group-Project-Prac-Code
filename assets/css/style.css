@@ -1,0 +1,58 @@
+body {
+    background-image: url("/Users/corydavis/Desktop/Skeleton-Practice/assets/images/251618.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+}
+
+.rounded {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#weatherBox {
+    height: 35vh;
+    width: 30vh;
+    border: solid 1px white;
+    padding: 10px;
+}
+
+#weatherBox .clock {
+    font-size: 4em;
+    text-align: center; 
+}
+
+.cityDisplay p, .weatherDisplay p {
+    font-size: 2em;
+    text-align: center;
+}
+
+.iconDisplay p {
+    font-size: 4em;
+    text-align: center;
+}
+
+
+
+/* utilities */
+.u-pull-right {
+    float: right; 
+}
+
+.u-pull-left {
+    float: left; 
+}
+  
+  .u-cf {
+    content: "";
+    display: table;
+    clear: both; 
+}
