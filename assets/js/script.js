@@ -36,9 +36,9 @@ var citySubmitHandler = function(event) {
     if (cityName) {
         displayOpenWeatherData(cityName);
         citySearched.textContent = data.name;
-        cityInputField.value = "";
+        
     } else {
-        alert("Please enter a GitHub username");
+        alert("Please enter a valid city.");
     }
 };
 
